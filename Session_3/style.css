@@ -1,6 +1,6 @@
 
 body{
-    background-color: #cf9d6b;
+    background-color: white;
 }
 .fixed-header{
     position: fixed;
@@ -82,18 +82,34 @@ li{
 .img-video img{
     width: 120px;
     margin-top: 10px;
-    
 
+}
+
+.seccion-publicitario {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
 .img-video{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.seccion-publicitario{
+.Publicitario > form {
     display: flex;
-    align-items: center;
-    align-content: center;
+}
+.Publicitario > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+.Publicitario > form button {
+    color: #fff;
+    background-color: #025157;
+}
+.seccion-publicitario{
+    margin-top: 150px;
+    display: flex;
 }
 
 .Publicitario h3{
