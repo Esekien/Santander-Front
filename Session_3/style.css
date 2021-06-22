@@ -2,6 +2,13 @@
 body{
     background-color: #cf9d6b;
 }
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .header {
      /* Arriba | Derecha | Abajo | Izquierda */
     margin: 40px 20px 0px 20px;
@@ -68,4 +75,32 @@ li{
     border: 0;
     border-radius: 5px;
   }
+
+.video{
+    margin-right: 50px;
+}
+.img-video img{
+    width: 120px;
+    margin-top: 10px;
+    
+
+}
+.img-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion-publicitario{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.Publicitario h3{
+    font-family: "Alegreya", serif;
+    color: #025157;
+}
+.Publicitario p{
+    color: #343434;
+}
 
