@@ -114,3 +114,104 @@ li{
 .Publicitario p{
     color: #343434;
 }
+/*AQUI INICIA EL POSTWORK*/
+.Growing-ecommerce{
+    background: #a1d683;
+    display: flex;
+}
+
+.Growing-center{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.info{
+    margin-right: 50px;
+}
+.info > *{
+    margin-bottom: 15px;
+}
+.info h1{
+    font-size: 50px;
+    color: #025157;
+}
+.info p{
+    font-size: 20px;
+    
+}
+
+.info button{
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    display: ;
+}
+.card{
+    background: #ffffff;
+    border-radius: 15px; 
+    height: 700px;
+    width: 400px;
+    
+}
+
+.card-top img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 15px;
+}
+/*REPASAR ESTA PARTE SE ME DIFICULTO MUCHO*/
+.card .circle{
+    position: absolute;
+    bottom: -35px;
+    margin-left: 230px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-middle > *{
+    margin-bottom: 15px;
+}
+
+.card-middle{
+    align-items: center;
+    padding: 20px 20px 0 25px;
+}
+.card-middle h6{
+    font-size: 20px;
+    color: #025157;
+}
+.Oferta{
+    display: flex;  
+}
+.Oferta img{
+    margin-right: 15px;
+}
+.p-middle{
+    font-size: 25px;
+    color: black;
+}
+.p-buttom{
+    font-size: 20px;
+    color: #aaaaaa;
+}
+.card-middle button{
+    margin-top: 20px;
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+}
+
