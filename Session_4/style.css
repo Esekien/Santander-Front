@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+     /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
+    
+  }
+
+li{
+    display: inline;
+}
+.header > * {
+    
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+}
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: left;
+    color: #025157;
+}
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions a {
+    color: #67b54b;
+}
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.video{
+    margin-right: 50px;
+}
+.img-video img{
+    width: 120px;
+    margin-top: 10px;
+
+}
+
+.seccion-publicitario {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.img-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Publicitario > form {
+    display: flex;
+}
+.Publicitario > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+.Publicitario > form button {
+    color: #fff;
+    background-color: #025157;
+}
+.seccion-publicitario{
+    margin-top: 150px;
+    display: flex;
+}
+
+.Publicitario h3{
+    font-family: "Alegreya", serif;
+    color: #025157;
+}
+.Publicitario p{
+    color: #343434;
+}
+/*features*/
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,330px);
+    background-color: #025157;
+    padding: 5% 10%;
+}
+.features .features-art{
+    background-color: #ffffff;
+    margin: 10;
+    width: 70%;
+    height: 250px;
+}
+.conten-feature .title{
+    color: black;
+    font-size: 30px;
+}
+.conten-feature .text{
+    color: #7e8082;
+    font-size: 20px;
+}
+.conten-feature a{
+    
+}
+
+
+/*AQUI INICIA EL POSTWORK*/
+.Growing-ecommerce{
+    background: #a1d683;
+    display: flex;
+}
+
+.Growing-center{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.info{
+    margin-right: 50px;
+}
+.info > *{
+    margin-bottom: 15px;
+}
+.info h1{
+    font-size: 50px;
+    color: #025157;
+}
+.info p{
+    font-size: 20px;
+    
+}
+
+.info button{
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    display: ;
+}
+.card{
+    background: #ffffff;
+    border-radius: 15px; 
+    height: 700px;
+    width: 400px;
+    
+}
+
+.card-top img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 15px;
+}
+/*REPASAR ESTA PARTE SE ME DIFICULTO MUCHO*/
+.card .circle{
+    position: absolute;
+    bottom: -700px;
+    margin-left: 230px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-middle > *{
+    margin-bottom: 15px;
+}
+
+.card-middle{
+    align-items: center;
+    padding: 20px 20px 0 25px;
+}
+.card-middle h6{
+    font-size: 20px;
+    color: #025157;
+}
+.Oferta{
+    display: flex;  
+}
+.Oferta img{
+    margin-right: 15px;
+}
+.p-middle{
+    font-size: 25px;
+    color: black;
+}
+.p-buttom{
+    font-size: 20px;
+    color: #aaaaaa;
+}
+.card-middle button{
+    margin-top: 20px;
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+}
+
