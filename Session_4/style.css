@@ -39,7 +39,7 @@ li{
 }
 .navbar{
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
 }
 .menu-item {
@@ -102,6 +102,8 @@ li{
 .Publicitario > form button {
     color: #fff;
     background-color: #025157;
+    border: none;
+    padding: 5px;
 }
 .seccion-publicitario{
     margin-top: 150px;
@@ -111,9 +113,14 @@ li{
 .Publicitario h3{
     font-family: "Alegreya", serif;
     color: #025157;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 .Publicitario p{
     color: #343434;
+}
+.Publicitario > *{
+    margin: 20px;
 }
 /*features*/
 .features{
@@ -122,12 +129,28 @@ li{
     grid-template-rows: repeat(2,330px);
     background-color: #025157;
     padding: 5% 10%;
+    
 }
+
 .features .features-art{
+
     background-color: #ffffff;
+    border-radius: 15px;
     margin: 10;
-    width: 70%;
+    width: 80%;
     height: 250px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+    
+}
+.imagen-feature{
+    overflow: hidden;
+}
+.conten-feature  > *{
+    margin: 10px;
 }
 .conten-feature .title{
     color: black;
@@ -138,8 +161,10 @@ li{
     font-size: 20px;
 }
 .conten-feature a{
-    
+    color: #7db54b;
+    text-decoration: none;
 }
+
 
 
 /*AQUI INICIA EL POSTWORK*/
@@ -195,7 +220,7 @@ li{
 /*REPASAR ESTA PARTE SE ME DIFICULTO MUCHO*/
 .card .circle{
     position: absolute;
-    bottom: -700px;
+    bottom: -900px;
     margin-left: 230px;
     width: 100px;
     height: 100px;
@@ -242,4 +267,72 @@ li{
     border: none;
     width: 100%;
 }
+/*POSTWORK SESION 4*/
+.match-work{
+    background-color: #fffbf7;
+    text-align: center;
+    
 
+}
+
+.match-work{
+    
+    height: 800px;
+}
+.logo-work{
+    position: absolute;
+}
+.work-header h2{
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: #025157;
+    font-size: 30px;
+}
+.work-header p{
+    text-align: center;
+    color: #544f50;
+}
+.work-header a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: #025157;
+  border-radius: 10px;
+  
+}
+.work-header > *{
+    margin-bottom: 20px;
+}
+.work-body{
+    display: flex;
+    margin: 0 auto; /*centrar*/
+    width: 50%; /*centrar*/
+    
+}
+.work-body .card-work-body{
+    padding: 10px;
+    height: 500px;
+    background-color: white;
+    width: 300px;
+    margin: 100px 25px 50px 25px;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    border: 0.5px solid #cccccc;
+}
+.card-work-body h4{
+    color: #025157;
+    font-size: 20px;
+}
+.card-work-body p{
+    
+   text-align: start;
+   margin-top: 20px;
+   margin-bottom: 80px;
+   
+}
+.card-work-body a{
+    color: #a9c66d;
+    font-size: 15px;
+    
+}
