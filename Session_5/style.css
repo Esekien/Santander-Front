@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+     /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
+    
+  }
+
+li{
+    display: inline;
+}
+.header > * {
+    
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+}
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+}
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions a {
+    color: #67b54b;
+}
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.video{
+    margin-right: 50px;
+}
+.img-video img{
+    width: 120px;
+    margin-top: 10px;
+
+}
+
+.seccion-publicitario {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.img-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Publicitario > form {
+    display: flex;
+}
+.Publicitario > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+.Publicitario > form button {
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    padding: 5px;
+}
+.seccion-publicitario{
+    margin-top: 150px;
+    display: flex;
+}
+
+.Publicitario h3{
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.Publicitario p{
+    color: #343434;
+}
+.Publicitario > *{
+    margin: 20px;
+}
+/*features*/
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,330px);
+    background-color: #025157;
+    padding: 5% 10%;
+    
+}
+
+.features .features-art{
+
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 10;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+    
+}
+.imagen-feature{
+    overflow: hidden;
+}
+.conten-feature  > *{
+    margin: 10px;
+}
+.conten-feature .title{
+    color: black;
+    font-size: 30px;
+}
+.conten-feature .text{
+    color: #7e8082;
+    font-size: 20px;
+}
+.conten-feature a{
+    color: #7db54b;
+    text-decoration: none;
+}
+
+
+
+/*AQUI INICIA EL POSTWORK*/
+.Growing-ecommerce{
+    background: #a1d683;
+    display: flex;
+}
+
+.Growing-center{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.info{
+    margin-right: 50px;
+}
+.info > *{
+    margin-bottom: 15px;
+}
+.info h1{
+    font-size: 50px;
+    color: #025157;
+}
+.info p{
+    font-size: 20px;
+    
+}
+
+.info button{
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    display: ;
+}
+.card{
+    background: #ffffff;
+    border-radius: 15px; 
+    height: 700px;
+    width: 400px;
+    
+}
+
+.card-top img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 15px;
+}
+/*REPASAR ESTA PARTE SE ME DIFICULTO MUCHO*/
+.card .circle{
+    position: absolute;
+    bottom: -900px;
+    margin-left: 230px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-middle > *{
+    margin-bottom: 15px;
+}
+
+.card-middle{
+    align-items: center;
+    padding: 20px 20px 0 25px;
+}
+.card-middle h6{
+    font-size: 20px;
+    color: #025157;
+}
+.Oferta{
+    display: flex;  
+}
+.Oferta img{
+    margin-right: 15px;
+}
+.p-middle{
+    font-size: 25px;
+    color: black;
+}
+.p-buttom{
+    font-size: 20px;
+    color: #aaaaaa;
+}
+.card-middle button{
+    margin-top: 20px;
+    color: white;
+    background: #025157;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+}
+/*POSTWORK SESION 4*/
+.match-work{
+    background-color: #fffbf7;
+    text-align: center;
+    
+
+}
+
+.match-work{
+    
+    height: 800px;
+}
+.logo-work{
+    position: absolute;
+}
+.work-header h2{
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: #025157;
+    font-size: 30px;
+}
+.work-header p{
+    text-align: center;
+    color: #544f50;
+}
+.work-header a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: #025157;
+  border-radius: 10px;
+  
+}
+.work-header > *{
+    margin-bottom: 20px;
+}
+.work-body{
+    display: flex;
+    margin: 0 auto; /*centrar*/
+    width: 50%; /*centrar*/
+    
+}
+.work-body .card-work-body{
+    padding: 10px;
+    height: 500px;
+    background-color: white;
+    width: 300px;
+    margin: 100px 25px 50px 25px;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    border: 0.5px solid #cccccc;
+}
+.card-work-body h4{
+    color: #025157;
+    font-size: 20px;
+}
+.card-work-body p{
+    
+   text-align: start;
+   margin-top: 20px;
+   margin-bottom: 80px;
+   
+}
+.card-work-body a{
+    color: #a9c66d;
+    font-size: 15px;
+    
+}
+.publish{
+    margin: 0 auto; /*centrar*/
+    width: 50%; /*centrar*/
+    margin-bottom: 20px;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, .actions{
+        display: none;
+    }
+    .Publicitario h3{
+        font-size: 80px;
+    }
+    .seccion-publicitario{
+        margin-top: 50px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .publish > form {
+        flex-direction: column;
+      }
+      .publish > form > * {
+        height: 25px;
+        margin-top: 10px;
+      }
+
+      .features {
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,);
+        padding-left: 0;
+      
+
+      }
+
+      .imagen-feature {
+        display: none;
+      }
+
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+}
